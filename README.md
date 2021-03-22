@@ -3,9 +3,18 @@
 
 Node.js Role Based Authorization API
 
+```
+Start App :
+    1.Install Nodejs
+    2.Install Npm
+    3.Install Mongodb 
+    4.npm install
+    5.npm start
+    
+```
 
 
-**Step 1 -> Create Admin from Below Curl call**
+**Step 1 -> Create Admin from Below Curl call Because without creating Admin you will not able to Create normal user**
 
 ```
 curl --location --request POST 'localhost:4000/users/register-admin' \
