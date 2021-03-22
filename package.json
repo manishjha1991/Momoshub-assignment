@@ -1,14 +1,15 @@
 {
-    "name": "node-role-based-authorization-api",
+    "name": "RBAC",
     "version": "1.0.0",
-    "description": "Node.js Role Based Authorization API",
+    "description": "Node.js Role Based Authorization API For Momoms Hub",
     "license": "MIT",
+    "author": "Manish Kumar Jha",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/node-role-based-authorization-api.git"
+        "url": "https://github.com/manishjha1991/Momoshub-assignment"
     },
     "scripts": {
-        "start": "nodemon ./server.js"
+        "start": "node ./server.js"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
